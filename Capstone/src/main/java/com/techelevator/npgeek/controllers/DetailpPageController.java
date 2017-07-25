@@ -24,7 +24,7 @@ import com.techelevator.npgeek.model.weather.WeatherDao;
 @Controller
 
 @SessionAttributes({"units","parkList"})
-public class detailpageController {
+public class DetailpPageController {
 	@Autowired
 	private ParkDao parkDao;
 

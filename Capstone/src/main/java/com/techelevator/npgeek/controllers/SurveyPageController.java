@@ -20,7 +20,7 @@ import com.techelevator.npgeek.model.survey.SurveyDao;
 import com.techelevator.npgeek.model.survey.Survey;
 
 @Controller
-public class surveypageController {
+public class SurveyPageController {
 	
 	@Autowired
 	private SurveyDao surveyDao;

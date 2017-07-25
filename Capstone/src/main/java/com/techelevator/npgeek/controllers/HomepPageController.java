@@ -16,7 +16,7 @@ import com.techelevator.npgeek.model.park.ParkDao;
 
 @Controller
 @SessionAttributes("parkList")
-public class homepageController {
+public class HomepPageController {
 	@Autowired
 	private ParkDao parkDAO;
 	
